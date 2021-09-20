@@ -1,11 +1,10 @@
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
 
-var numberOfCharacters;
-var specialCharsAllowed;
-var numbersAllowed;
-var lowercaseAllowed;
-var uppercaseAllowed;
+var symbols = [" !#$%&'()*+,-./:;<=>?@[\]^_`{|}~"]
+var numbers = [" 1234567890"]
+var lowercase = [" qwertyuiopasdfghjklzxcvbnm"]
+var uppercase = [" QWERTYUIOPASDFGHJKLZXCVBNM"]
 
 
 /*    Pseudocoding----------
